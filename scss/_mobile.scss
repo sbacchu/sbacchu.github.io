@@ -6,7 +6,7 @@
 @include mediaLarge {
 }
 
-// Tables and Small Laptops
+// Tablets and Small Laptops
 @include mediaMedium {
   main {
     align-items: center;
@@ -38,6 +38,16 @@
   .menu-branding {
     height: 250px;
     transform: translate3d(-100%, 0, 0);
+  }
+
+  .about-info {
+    grid-template-areas:
+      "bioimg"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+    grid-template-columns: 1fr;
   }
 }
 
